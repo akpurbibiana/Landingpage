@@ -13,7 +13,12 @@ const App = () => {
         <h1 className='text-black-800 font-extrabold'>Landing</h1>
       <Button title="Buy now"/>
       </header>
-
+       {/* BACKGROUND IMAGE */}
+       <img src='/herobackground.svg'
+        className="w-[50%] object-cover absolute right-0 top-0"
+        alt="backgroundimage"
+      />
+ 
       {/* HERO */}
 <div className='flex gap-8 h-screen items-center justify-center'>
   {/* INFO */}
@@ -32,6 +37,20 @@ const App = () => {
     <img src='/heroimage.svg' className='w-[70%] h-[80vh] object-cover alt="hero image"'/>
   </div>
 
+</div>
+{/* SECTION TWO */}
+<div className='flex gap-8 h-[80vh] items-center justify-center px-24'>
+  {/* IMAGE */}
+<div className='w-[50%] flex items-center justify-center relative'>
+  <img src='/section2image.svg' 
+  className='w-[60%] object-cover absolute right-24'/>
+</div>
+{/* INFO */}
+<div className='w-[50%] flex flex-col items-start justify-center'>
+  <h2 className='text-3xl text-black font-semibold'>Light, Fast & Powerful</h2>
+  <p className='text-sm text-[#091133] font-medium py-4'>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus 
+  mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+</div>
 </div>
 
     </div>
